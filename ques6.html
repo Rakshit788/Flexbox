@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>  
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+    <style> 
+    body {
+        background-color: rgb(21, 20, 20);
+    } 
+
+    .container {
+        display: flex;
+        flex-direction: column;
+         
+        margin-top: 280px ;
+    }
+        .heading { 
+            color: white;
+            text-align: center; 
+            font-size: 36px ; 
+            
+
+        }  
+        .input {
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            margin-top: -24px; 
+            flex-direction: row; 
+            border: 1px solid gray; 
+            margin-left: 35%;
+           width: 490px; 
+           border-radius: 22px;
+        }
+
+        .search {
+            border: solid rgb(21, 20, 20)  ;
+            background-color: rgb(21, 20, 20) ; 
+            color: white; 
+            margin-top: 3px; 
+            width: 324px; 
+            height: 23px; 
+           outline: none;
+        }  
+        #searchbar {
+            color: rgb(73, 67, 67); 
+            margin-top: 6px; 
+            margin-right: 10px ;
+        } 
+        #lens {
+            color: rgb(72, 72, 247); 
+            margin-top: 6px;
+            margin-left: 18px;
+            font-size: 20px; 
+        }
+
+
+    </style>
+</head>
+<body> 
+
+    <div class="container">
+        <div class="heading">
+            <h1>Google</h1> 
+          
+        </div> 
+        <div >
+            <form action="" class="input">  
+                
+                <i class="material-icons" id="searchbar">search</i>  
+                <input type="text" class="search">  
+                <i class="fa-solid fa-microphone" style="color: #5888f9; margin-left: 30px; font-size: 17px; margin-top: 6px;"></i>
+                <span class="material-icons" id="lens">   center_focus_strong   </span>
+                
+                
+                
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

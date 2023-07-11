@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+        body { 
+            background-color: rgb(24, 23, 23);  }
+        .photos {
+            display: flex;
+            flex-direction: row;
+            gap: -1px; 
+            position: relative  ;  
+        margin-left: 400px; 
+        margin-top: 300px;
+     }
+         
+        .white {
+            border-radius: 50%;
+            border: 4px solid rgb(247, 241, 241) ; 
+            height: 150px; 
+            width: 150px;  
+           
+                               } 
+         .ind1 { 
+            position: absolute;
+            z-index: 4;  
+
+            
+
+         }     
+         .ind2 {
+            position: relative ;
+            z-index: 3;
+             left: 140px;
+         }       
+         .ind3 {
+                position: relative;
+                left: 123px;
+                z-index: 2;
+
+            }  
+            .ind4 {
+                position: absolute;
+                z-index: 1; 
+                left: 425px;
+            }
+            
+            
+    </style>
+</head>
+<body>
+    <div class="photos">
+        <img src="img1.jpg" alt="" class="white ind1">
+        <img src="img2.jpg" alt="" class="white ind2">
+        <img src="img3.jpg" alt="" class="white ind3">
+        <img src="img4.jpg" alt="" class="white ind4">
+    </div>
+</body>
+</html>
